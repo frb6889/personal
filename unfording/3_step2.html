@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unfording·生成页</title>
+    <link rel="icon shortcut" href="./_图纸.a857ff48.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style_03.13aa714b.css">
+</head>
+
+<body>
+    <div class="mainBox">
+        <div class="headBack">
+            <ul class="headLine">
+                <li class="headLeftButton"> <img src="./button-comp.2807eb03.png"> </li>
+                <li class="title">UNFORDING</li>
+                <li class="personIcon"> <img src="./Person.1b940638.png"> </li>
+            </ul>
+        </div>
+        <div class="canvasBox" id="canvasBox"> <canvas id="sceneCanvas"></canvas> </div>
+        <div class="notice">注意：请控制模型数量在5个以内，防止文件过大链接生成失败～</div>
+        <div class="keyboard">
+            <div class="line1">
+                <div class="button" id="visi1">1</div>
+                <div class="button" id="visi2">2</div>
+                <div class="button" id="visi3">3</div>
+                <div class="button" id="visi4">4</div>
+                <div class="button" id="visi5">5</div>
+                <div class="button" id="visi6">6</div>
+                <div class="button" id="visi7">7</div>
+                <div class="button" id="visi8">8</div>
+                <div class="button" id="visi9">9</div>
+                <div class="button" id="visi0">0</div>
+            </div>
+            <div class="line2">
+                <div class="button" id="visiQ">q</div>
+                <div class="button" id="visiW">w</div>
+                <div class="button" id="visiE">e</div>
+                <div class="button" id="visiR">r</div>
+                <div class="button" id="visiT">t</div>
+                <div class="button" id="visiY">y</div>
+                <div class="button" id="visiU">u</div>
+                <div class="button" id="visiI">i</div>
+                <div class="button" id="visiO">o</div>
+                <div class="button" id="visiP">p</div>
+            </div>
+            <div class="line3">
+                <div class="button" id="visiA">a</div>
+                <div class="button" id="visiS">s</div>
+                <div class="button" id="visiD">d</div>
+                <div class="button" id="visiF">f</div>
+                <div class="button" id="visiG">g</div>
+                <div class="button" id="visiH">h</div>
+                <div class="button" id="visiJ">j</div>
+                <div class="button" id="visiK">k</div>
+                <div class="button" id="visiL">l</div>
+            </div>
+            <div class="line4">
+                <div class="button" id="visiZ">z</div>
+                <div class="button" id="visiX">x</div>
+                <div class="button" id="visiC">c</div>
+                <div class="button" id="visiV">v</div>
+                <div class="button" id="visiB">b</div>
+                <div class="button" id="visiN">n</div>
+                <div class="button" id="visiM">m</div>
+            </div>
+            <div class="longButton"> <a id="generate">GENERATE!</a> </div>
+        </div>
+        <div class="next"> <a class="back"> <img src="./Left_Arrow.4b51bbc0.png" class="backPic"> </a>
+            <div class="filebutton1"> <img src="./filePic1.d6a20e97.png" class="filePic1"> <img
+                    src="./filePic1_2.ce7d26b9.png" class="filePic1_2"> </div> <a class="filebutton2"
+                onclick="saveImg()"> <img src="./filePic2.812a5b3b.png" class="filePic2"> </a>
+        </div>
+        <div id="paperBox">
+            <div class="paperToPrint" id="paperToPrint"> <img src="./paper0.8f32d548.png" id="paper0"> <img
+                    src="./paper1.1029aee4.png" id="paper1"> <img src="./paper2.d1e3e708.png" id="paper2"> <img
+                    src="./paper3.f6a2f724.png" id="paper3"> <img src="./paper4.11695a35.png" id="paper4"> <img
+                    src="./paper5.b825db53.png" id="paper5"> <img src="./paper6.158b2c23.png" id="paper6"> <img
+                    src="./paper7.187fec0f.png" id="paper7"> <img src="./paper8.34f211e6.png" id="paper8"> <img
+                    src="./paper9.32dac1a8.png" id="paper9"> <img src="./paperQ.6fb47083.png" id="paperQ"> <img
+                    src="./paperW.77d94860.png" id="paperW"> <img src="./paperE.8e087625.png" id="paperE"> <img
+                    src="./paperR.2ba288f0.png" id="paperR"> <img src="./paperT.53dee7f0.png" id="paperT"> <img
+                    src="./paperY.026e2e8d.png" id="paperY"> <img src="./paperU.6c51b18c.png" id="paperU"> <img
+                    src="./paperI.a39a120b.png" id="paperI"> <img src="./paperO.6306de10.png" id="paperO"> <img
+                    src="./paperP.8d83a55c.png" id="paperP"> <img src="./paperA.c0cc182b.png" id="paperA"> <img
+                    src="./paperS.e00b45c1.png" id="paperS"> <img src="./paperD.b6c62df8.png" id="paperD"> <img
+                    src="./paperF.14116a4e.png" id="paperF"> <img src="./paperG.6be9f880.png" id="paperG"> <img
+                    src="./paperH.1d25d90a.png" id="paperH"> <img src="./paperJ.7fb4c580.png" id="paperJ"> <img
+                    src="./paperK.84ff7b68.png" id="paperK"> <img src="./paperL.10d79c67.png" id="paperL"> <img
+                    src="./paperZ.8579f1df.png" id="paperZ"> <img src="./paperX.c69d6379.png" id="paperX"> <img
+                    src="./paperC.cc61c9f1.png" id="paperC"> <img src="./paperV.609cb69b.png" id="paperV"> <img
+                    src="./paperB.2e23253f.png" id="paperB"> <img src="./paperN.60cf1d77.png" id="paperN"> <img
+                    src="./paperM.783e21fb.png" id="paperM"> </div>
+        </div> <img src="./sticky.widget.998f24aa.png" class="sendingPic">
+        <div class="theHref" id="theHref" style="table-layout:fixed"></div>
+    </div>
+</body>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"
+    integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg=="
+    crossorigin referrerpolicy="no-referrer"></script>
+<script src="./main.67817d1f.js" type="module"></script>
+<script type="text/javascript">
+    const backendUrl = "https://www.gozhan.net"
+    const strApi = "https://api.gozhan.net"
+
+
+
+
+    // 登录判断
+    let isLogin = () => {
+        let time = localStorage.getItem('time')
+        if (!time) {
+            return false
+        }
+        let now = new Date().getTime()
+        let pass = now - time
+        if (pass > (24 * 60 * 60 * 1000)) {
+            // 重新登录
+            return false
+        } else {
+            return true
+        }
+    }
+
+    let login = (user, password, cb) => {
+        axios.post(strApi + '/auth/local', {
+            identifier: user,
+            password: password,
+        }).then(res => {
+            if (res.status === 200) {
+                localStorage.setItem("jwt", res.data.jwt)
+                localStorage.setItem("id", res.data.user.id)
+                localStorage.setItem("time", new Date().getTime())
+                return cb()
+            } else {
+                console.log(res)
+            }
+        }).catch(err => {
+            console.log(err)
+        });
+    }
+
+    if (!isLogin()) {
+        login("syr21@mails.tsinghua.edu.cn", "2021011255", () => {
+            console.log("登陆成功")
+        });
+    } else {
+        console.log("之前已经登陆过了")
+    }
+
+
+    // 数据库请求
+    let reqPost = (parameters) => {
+        let action = () => {
+            let jwt = localStorage.getItem("jwt")
+            return axios.post(backendUrl + '/add', { data: parameters, jwt: jwt })
+        }
+        if (isLogin()) {
+            action().then(res => {
+                // console.log(res)
+                if (res.status == 200) {
+                    //上传成功
+                    console.log("上传成功，id：", res.data.data.id)
+                    document.getElementById("theHref").innerHTML = '复制以下网址发给收礼人吧：<br>https://www.gozhan.net/project/85/3_receive.html?id=' + res.data.data.id
+
+                } else {
+                    console.log("上传出现了点小问题", res)
+                }
+            }).catch(err => {
+                console.log(err)
+            })
+        } else {
+            console.log("登录失败！")
+        }
+    }
+
+    function saveImg() {
+        var element = document.getElementById('paperToPrint');
+        html2pdf().from(element).outputImg("img").then(data => {
+            reqPost({ data: data.src })
+        })
+        console.log({ data: data.src })
+
+    }
+</script>
+</html>

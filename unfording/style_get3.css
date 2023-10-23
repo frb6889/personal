@@ -1,0 +1,174 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: "IBM Plex Mono";
+    src: url("./IBMPlexMono-Regular.6a1ac679.ttf");
+}
+
+body {
+    background-color: rgb(245, 245, 245);
+}
+
+.page3{
+    display:none;
+}
+
+.rollBox3 {
+    /* 2 roll */
+
+
+    position: relative;
+    width: 390px;
+    height: 700px;
+    /* width: 390px;
+            height: 700px;
+            overflow-y: scroll; */
+
+    margin: 10px auto;
+
+    background: #FFFFFF;
+    border-radius: 20px;
+
+}
+
+.headBack {
+
+    position: fixed;
+    width: 1290px;
+    height: 58px;
+    margin: -10px auto;
+    background-color: rgb(245, 245, 245);
+
+}
+
+.headLine {
+    /* Rectangle 5282 */
+
+
+    position: fixed;
+    width: 390px;
+    height: 58px;
+
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+    background: #000000;
+}
+
+.headLeftButton {
+    /* button.comp */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    line-height: 58px;
+
+    position: absolute;
+    width: 58px;
+    height: 14px;
+    left: 19px;
+    top: 20px;
+}
+
+.headLine .title {
+    /* title.block */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    padding: 16px 0 0 0;
+    gap: 16px;
+
+    /* title.txt */
+
+
+    width: 130px;
+    height: 24px;
+
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    /* identical to box height, or 100% */
+
+    text-transform: uppercase;
+
+    /* Greyscale/ W */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+
+}
+
+.personIcon {
+    /* Person */
+
+
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 329px;
+    top: 16px;
+}
+
+.bottomBox3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    position: absolute;
+    width: 101px;
+    height: 127px;
+    left: calc(50% - 101px/2 - 10px);
+    top: calc(50% - 127px/2 + 250px);
+    cursor: pointer;
+}
+
+.fileButton {
+    display: flex;
+    /* flex-direction: column;
+    align-items: flex-start; */
+    /* gap: 8px; */
+    position: absolute;
+    margin:10px auto;
+    
+
+    font-size: 14px;
+
+    
+
+
+
+}
+
+.paperToPrint {
+    position: absolute;
+
+    width: 380px;
+    height: 500px;
+    overflow-y: scroll;
+    margin: 30px auto;
+
+}

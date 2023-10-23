@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        @font-face {
+            font-family: "IBM Plex Mono";
+            src: url("../fonts/IBM_Plex_Mono/IBMPlexMono-Regular.ttf");
+        }
+
+        body {
+            background-color: rgb(245, 245, 245);
+        }
+
+        .rollBox1 {
+            /* 2 roll */
+
+
+            position: relative;
+            width: 390px;
+            height: 1234px;
+            /* width: 390px;
+    height: 700px;
+    overflow-y: scroll; */
+
+            margin: 10px auto;
+
+            background: #FFFFFF;
+            border-radius: 20px;
+
+        }
+
+        .headBack {
+
+            position: fixed;
+            width: 1290px;
+            height: 58px;
+            margin: -10px auto;
+            background-color: rgb(245, 245, 245);
+
+        }
+
+        .headLine {
+            /* Rectangle 5282 */
+
+
+            position: fixed;
+            width: 390px;
+            height: 58px;
+
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+
+            background: #000000;
+        }
+
+        .headLeftButton {
+            /* button.comp */
+
+
+            /* Auto layout */
+
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 0px;
+            gap: 8px;
+            line-height: 58px;
+
+            position: absolute;
+            width: 58px;
+            height: 14px;
+            left: 19px;
+            top: 20px;
+        }
+
+        .headLine .title {
+            /* title.block */
+
+
+            /* Auto layout */
+
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            margin: 0px auto;
+            padding: 16px 0 0 0;
+            gap: 16px;
+
+            /* title.txt */
+
+
+            width: 130px;
+            height: 24px;
+
+            font-family: 'IBM Plex Mono';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            /* identical to box height, or 100% */
+
+            text-transform: uppercase;
+
+            /* Greyscale/ W */
+
+            color: #FFFFFF;
+
+
+            /* Inside auto layout */
+
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+
+
+        }
+
+        .personIcon {
+            /* Person */
+
+
+            position: absolute;
+            width: 24px;
+            height: 24px;
+            left: 329px;
+            top: 16px;
+        }
+
+        .mainIntro #stickyWidget {
+
+            /* sticky.widget */
+
+
+            /* Auto layout */
+
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0px;
+
+            position: absolute;
+            width: 284px;
+            height: 244px;
+            left: 45px;
+            top: 374px;
+        }
+
+
+
+        .mainTitle {
+            position: absolute;
+            width: 141px;
+            height: 566px;
+            left: 37px;
+            top: 141px;
+
+            font-family: 'IBM Plex Mono';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 64px;
+            line-height: 80px;
+            /* or 126% */
+
+            text-transform: uppercase;
+
+            color: #000000;
+        }
+
+        .blackLine {
+            /* Rectangle 5288 */
+
+
+            position: absolute;
+            left: 0%;
+            right: 0%;
+            top: 70.8%;
+            bottom: 24.07%;
+
+
+
+            background: #000000;
+        }
+
+        .bottomBox1 {
+            position: absolute;
+            left: 0%;
+            right: 0%;
+            top: 75.37%;
+            bottom: -0.19%;
+
+            background: #FF90FF;
+
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+
+        }
+
+        #startToOpen {
+            box-sizing: border-box;
+
+            position: absolute;
+            top: -30%;
+
+            cursor: pointer;
+        }
+    </style>
+
+</head>
+
+</head>
+
+<body>
+
+    <div class="page1">
+        <div class="rollBox1">
+            <div class="mainTitle">
+                这<br>
+                是<br>
+                一<br>
+                封<br>
+                信<br>
+                ***<br>
+                ******<br>
+            </div>
+            <div class="blackLine"></div>
+            <div class="bottomBox1">
+                <img src="./startToOpen.png" id="startToOpen">
+            </div>
+            <div class="headBack">
+                <ul class="headLine">
+                    <li class="headLeftButton">
+                        <img src="./button-comp.2807eb03.png">
+                    </li>
+                    <li class="title">UNFORDING</li>
+                    <li class="personIcon">
+                        <img src="./Person.1b940638.png">
+                    </li>
+                </ul>
+            </div>
+            <img src="./background.bb7cf101.png">
+        </div>
+
+    </div>
+
+    <div class="page2">
+        <div class="rollBox2">
+
+            <div class="bottomBox2">
+                <div class="bottomText">
+                    %只有拼贴完整<br>
+                    才能读出文字信息的<br>
+                    秘密书信%
+                </div>
+            </div>
+            <div class="mainTitle">
+                奇<br>
+                怪<br>
+                为什么<br>
+                它<br>
+                没有字<br>
+                ***<br>
+            </div>
+            <a class="clickToNext">
+                点击继续
+                <img src="./Right_Arrow.png" class="arrow">
+            </a>
+
+
+            <div class="headBack">
+                <ul class="headLine">
+                    <li class="headLeftButton">
+                        <img src="./button-comp.2807eb03.png">
+                    </li>
+                    <li class="title">UNFORDING</li>
+                    <li class="personIcon">
+                        <img src="./Person.1b940638.png">
+                    </li>
+                </ul>
+            </div>
+
+
+            <img src="./background.bb7cf101.png">
+        </div>
+    </div>
+
+    <div class="page3">
+        <div class="rollBox3">
+            <div class="paperToPrint">
+                <img id="image" src="">
+            </div>
+            <div class="bottomBox3">
+                <!-- <img src="./assets/imgs/get_imgs/getpage3_imgs/filePic.png" class="fileButton"> -->
+                <div class="fileButton">
+                    长按/右键保存上图⬆️
+                </div>
+            </div>
+            <div class="headBack">
+                <ul class="headLine">
+                    <li class="headLeftButton">
+                        <img src="./button-comp.2807eb03.png">
+                    </li>
+                    <li class="title">UNFORDING</li>
+                    <li class="personIcon">
+                        <img src="./Person.1b940638.png">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script type="text/javascript">
+    const backendUrl = "https://www.gozhan.net"
+    const strApi = "https://api.gozhan.net"
+
+
+    // 登录判断
+    let isLogin = () => {
+        let time = localStorage.getItem('time')
+        if (!time) {
+            return false
+        }
+        let now = new Date().getTime()
+        let pass = now - time
+        if (pass > (24 * 60 * 60 * 1000)) {
+            // 重新登录
+            return false
+        } else {
+            return true
+        }
+    }
+
+    let login = (user, password, cb) => {
+        axios.post(strApi + '/auth/local', {
+            identifier: user,
+            password: password,
+        }).then(res => {
+            if (res.status === 200) {
+                localStorage.setItem("jwt", res.data.jwt)
+                localStorage.setItem("id", res.data.user.id)
+                localStorage.setItem("time", new Date().getTime())
+                return cb()
+            } else {
+                console.log(res)
+            }
+        }).catch(err => {
+            console.log(err)
+        });
+    }
+
+    if (!isLogin()) {
+        login("syr21@mails.tsinghua.edu.cn", "2021011255", () => {
+            console.log("登陆成功")
+        });
+    } else {
+        console.log("之前已经登陆过了")
+    }
+
+    let reqGet = (id) => {
+        // let userId
+        let action = () => {
+            // let params = {
+            //     users_permissions_user: userId
+            // }
+            let params = {}
+            if (id !== null && id !== undefined) {
+                params._id = id
+            }
+            return axios.get(strApi + '/user-data', {
+                params: params
+            })
+        }
+        if (isLogin()) {
+            action().then(res => {
+                if (res.status == 200) {
+                    //上传成功
+                    console.log("获取成功")
+                    image.src = res.data[0].data.data;
+                } else {
+                    console.log("获取出现了点小问题", res)
+                }
+            }).catch(err => {
+                console.log(err)
+            })
+        } else {
+            console.log("登录失败！")
+        }
+
+
+    }
+
+
+    let image = document.getElementById("image");
+
+    function getQueryVariable(variable) {
+        var query = window.location.search.substring(1);
+        var vars = query.split("&");
+        for (var i = 0; i < vars.length; i++) {
+            var pair = vars[i].split("=");
+            if (pair[0] == variable) { return pair[1]; }
+        }
+        return (false);
+    }
+
+    let id = getQueryVariable("id")
+    console.log("获取ID：", id)
+    if (id != false) {
+        // 开始从数据库读取文件
+        reqGet(id)
+    }
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"
+    integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script type="module">
+
+    const page1 = document.querySelector('.page1');
+    const page2 = document.querySelector('.page2');
+    const page3 = document.querySelector('.page3');
+
+
+
+    /* page1 */
+    const startToOpen = document.getElementById('startToOpen');
+    startToOpen.addEventListener('click', function () {
+        page1.style.display = 'none';
+        page2.style.display = 'block';
+
+    })
+
+    /* page2 */
+    const clickToNext = document.querySelector('.clickToNext');
+    clickToNext.addEventListener('click', function () {
+        page2.style.display = 'none';
+        page3.style.display = 'block';
+    })
+
+    /* page3 */
+    const filePic = document.querySelector('.bottomBox');
+    const paper = document.querySelector('.paperToPrint');
+
+
+    /* filePic.addEventListener('click', function () {
+        html2pdf(paper);
+    }) */
+
+
+
+
+
+</script>
+
+</html>
